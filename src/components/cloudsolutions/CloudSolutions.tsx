@@ -69,6 +69,41 @@ const CloudSolutions = () => {
             </div>
           </div>
         </div>
+
+        <div
+          className="flex
+          justify-center items-center space-x-10
+        "
+        >
+          <div className="w-[30%]">
+            <p className="text-[20px]">Decentralized Cloud Solution</p>
+            <p className="text-[16px] text-[#8A8F98]">
+              Leveraging technologies like IPFS and ENS/Decentralized DNS. Our
+              innovative setup ensures secure, reliable, and transparent network
+              environments.
+            </p>
+          </div>
+
+          <div className="w-0.5 h-24 bg-white" />
+          <div className="w-[30%]">
+            <p className="text-[20px] [h-24px]">DSync distributed network</p>
+            <p className="text-[16px] text-[#8A8F98]">
+              DSync distributed network, where users can partake themselves, by
+              allocating storage and processing power to Destra's distributed
+              network and get rewarded.
+            </p>
+          </div>
+
+          <div className="w-0.5 h-24 bg-white" />
+
+          <div className="w-[30%] -mt-6">
+            <p className="text-[20px]">NFT/Gamify Storage Solution</p>
+            <p className="text-[16px] text-[#8A8F98]">
+              NFT’s can be stored on our true decentralized storage network,
+              instead of the centralized web2 storage services.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

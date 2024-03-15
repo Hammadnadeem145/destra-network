@@ -3,6 +3,7 @@ import {
   DestraNetWork,
   Hero,
   Navigation,
+  Solutions,
   Video,
 } from "@/components";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <DestraNetWork />
       <Video />
       <CloudSolutions />
+      <Solutions />
     </div>
   );
 }
