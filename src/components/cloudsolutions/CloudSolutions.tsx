@@ -89,7 +89,7 @@ const CloudSolutions = () => {
             <p className="text-[20px] [h-24px]">DSync distributed network</p>
             <p className="text-[16px] text-[#8A8F98]">
               DSync distributed network, where users can partake themselves, by
-              allocating storage and processing power to Destra's distributed
+              allocating storage and processing power to Destra&#39;s distributed
               network and get rewarded.
             </p>
           </div>

@@ -11,7 +11,7 @@ const Solutions = () => {
         <div className="w-[50%] space-y-4 p-6">
           <p className="text-[#FF0800] text-[16px]">Solutions</p>
           <p className="text-[35px]">
-            Destra Network's{" "}
+            Destra Network&#39;s{" "}
             <span className="text-[#FF0800]">Cutting-Edge</span> Solutions
           </p>
           <p className="text-[18px] text-[#3C3E41]">
