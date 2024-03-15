@@ -6,7 +6,7 @@ const CloudSolutions = () => {
     <div className="w-full">
       <div className="flex flex-col mx-auto w-[85%] pt-20 space-y-16">
         <div className="w-[60%] space-y-4">
-          <p className="text-[44px]">
+          <p className="text-4xl">
             Destra Network pioneering decentralized{" "}
             <span className="text-[#FF0800]">cloud solutions</span>
           </p>
@@ -33,12 +33,12 @@ const CloudSolutions = () => {
               centralized authorities.
             </p>
             <div className="">
-              <Image src={"/world.webp"} alt="/" height={400} width={400} />
+              <Image src={"/world.webp"} alt="/" height={400} width={350} />
             </div>
           </div>
           <div className="w-[50%] flex flex-col justify-between">
             <div
-              className="   p-6 space-y-2  rounded-xl h-[200px] "
+              className="   p-8 space-y-2  rounded-xl h-[180px] "
               style={{
                 backgroundImage:
                   "radial-gradient(circle at 80.6% 40.3%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%)",
@@ -53,16 +53,16 @@ const CloudSolutions = () => {
             </div>
 
             <div
-              className="   p-6 space-y-2  rounded-xl h-[200px]   relative bg-cover bg-center"
+              className="   p-8 space-y-3  rounded-xl h-[200px]   relative bg-cover bg-center border border-white border-opacity-10"
               style={{ backgroundImage: 'url("waves.webp")' }}
             >
               <p className="text-[22px]">Destra&#39;s ENS Gateway</p>
-              <p className="text-[16px] text-[#8A8F98]">
+              <p className="text-[16px] text-white">
                 To support Web3 unfriendly browsers like Chrome, Firefox, or
                 Safari
               </p>
 
-              <div className="flex items-center space-x-2 mx- px-3 py-2 rounded-3xl w-[20%] bg-white bg-opacity-5  border border-white border-opacity-10">
+              <div className="flex items-center space-x-2 px-3 py-2 rounded-3xl w-[20%] bg-white bg-opacity-5  border border-white border-opacity-10">
                 <div className="w-2 h-2 rounded-full bg-green-700 " />
                 <p> Dcn.live</p>
               </div>
@@ -89,8 +89,8 @@ const CloudSolutions = () => {
             <p className="text-[20px] [h-24px]">DSync distributed network</p>
             <p className="text-[16px] text-[#8A8F98]">
               DSync distributed network, where users can partake themselves, by
-              allocating storage and processing power to Destra&#39;s distributed
-              network and get rewarded.
+              allocating storage and processing power to Destra&#39;s
+              distributed network and get rewarded.
             </p>
           </div>
 

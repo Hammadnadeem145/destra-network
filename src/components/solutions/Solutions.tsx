@@ -8,7 +8,7 @@ const Solutions = () => {
         <div className="w-[50%] flex justify-center">
           <Image src={"/ring.webp"} alt="/ring" width={550} height={550} />
         </div>
-        <div className="w-[50%] space-y-4 p-6">
+        <div className="w-[50%] space-y-4 p-10">
           <p className="text-[#FF0800] text-[16px]">Solutions</p>
           <p className="text-[35px]">
             Destra Network&#39;s{" "}
