@@ -4,13 +4,13 @@ import React from "react";
 const Solutions = () => {
   return (
     <div className="w-full">
-      <div className="flex justify-between    mx-auto w-[80%] pt-20 ">
-        <div className="w-[50%] flex justify-center">
+      <div className="md:flex justify-between    mx-auto md:w-[80%] pt-20 ">
+      <div className="md:w-[50%] flex justify-center mx-2 md:mx-0">
           <Image src={"/ring.webp"} alt="/ring" width={550} height={550} />
         </div>
-        <div className="w-[50%] space-y-4 p-5">
+        <div className="md:w-[50%] space-y-4 p-5">
           <p className="text-[#FF0800] text-[16px]">Solutions</p>
-          <p className="text-[35px]">
+          <p className="md:text-[35px] text-2xl">
             Destra Network&#39;s{" "}
             <span className="text-[#FF0800]">Cutting-Edge</span> Solutions
           </p>

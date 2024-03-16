@@ -5,6 +5,9 @@ import {
   Navigation,
   Solutions,
   Video,
+  Proof,
+  Faq,
+  Footer
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +19,9 @@ export default function Home() {
       <Video />
       <CloudSolutions />
       <Solutions />
+      <Proof />
+      <Faq />
+      <Footer />
     </div>
   );
 }
