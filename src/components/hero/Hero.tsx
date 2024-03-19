@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[100%] md:w-[50%] flex justify-end items-center">
+        <div className="md:w-[50%] flex justify-end items-center">
           <Image src={"/hero.webp"} alt="/heroimg" height={600} width={600} />
         </div>
       </div>

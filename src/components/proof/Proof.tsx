@@ -31,11 +31,11 @@ function Proof() {
       {/* Buttons */}
       <div className="md:flex items-center gap-x-6 basis-[30%] ">
         {/* 1 */}
-        <button className="px-5 flex  mt-4 md:mt-0 py-1 bg-white font-bold text-black rounded-md hover:bg-red-600 ">
-          Participate Now
+        <button className="md:px-5 px-3 py-1.5 w-full  flex  mt-6 md:mt-0 md:py-4 bg-white font-bold text-black rounded-md hover:bg-red-600 ">
+          <p className="mx-auto">Participate Now</p>
         </button>
         {/* 2 */}
-        <button className="mt-4 md:mt-0 rounded-md py-1 px-10 bg-transparent text-white hover:bg-[#7f848c] border border-white">
+        <button className="mt-5 md:mt-0 px-7 w-full py-1.5 rounded-md md:py-4 md:px-10 bg-transparent text-white hover:bg-[#7f848c] border border-white">
           View Details
         </button>
       </div>

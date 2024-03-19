@@ -4,6 +4,7 @@ function Faq() {
   return (
     <div className="md:w-[80%]  mx-auto md:mt-36 mt-16">
       <div className="mx-6 md:mx-0">
+        {/* Title */}
         <h1 className="md:text-5xl text-3xl">Frequently asked questions</h1>
         <p className="pt-6">
           <span className="text-[#898e97]">
@@ -13,6 +14,7 @@ function Faq() {
         </p>
       </div>
       <ul className="mt-14 divide-y divide-gray-800">
+        {/* Q1 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -44,6 +46,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q2 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -75,6 +78,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q3 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -104,6 +108,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q4 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -135,6 +140,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q5 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -166,6 +172,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q6 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -198,6 +205,7 @@ function Faq() {
             </article>
           </details>
         </li>
+        {/* Q7 */}
         <li>
           <details className="group">
             <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">

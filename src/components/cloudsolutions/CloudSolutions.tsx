@@ -33,12 +33,12 @@ const CloudSolutions = () => {
               centralized authorities.
             </p>
             <div className="">
-              <Image src={"/world.webp"} alt="/" height={400} width={350} />
+              <Image src={"/world.webp"} alt="/" height={400} width={400} />
             </div>
           </div>
           <div className="md:w-[50%] md:flex flex-col justify-between">
             <div
-              className="p-4 md:p-8 space-y-2  rounded-xl h-[180px] "
+              className="p-6 space-y-2  rounded-xl h-[200px] "
               style={{
                 backgroundImage:
                   "radial-gradient(circle at 80.6% 40.3%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%)",
@@ -53,11 +53,11 @@ const CloudSolutions = () => {
             </div>
 
             <div
-              className="p-8 space-y-3  rounded-xl h-[200px]   relative bg-cover bg-center border border-white border-opacity-10"
+              className="p-6 space-y-2  rounded-xl h-[200px] mt-4 md:mt-0 relative bg-cover bg-center border border-white border-opacity-10"
               style={{ backgroundImage: 'url("waves.webp")' }}
             >
-              <p className="text-[22px]">Destra&#39;s ENS Gateway</p>
-              <p className="text-[16px] text-white">
+              <p className="text-[22px] md:pt-0 pt-5">Destra&#39;s ENS Gateway</p>
+              <p className="text-[16px] text-white md:pt-0 pt-2">
                 To support Web3 unfriendly browsers like Chrome, Firefox, or
                 Safari
               </p>
